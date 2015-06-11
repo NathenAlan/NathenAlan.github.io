@@ -223,7 +223,7 @@ img::-moz-selection{background:transparent;}
     padding: 0 50px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #186AB3;
+    color: #CCD2D6;
 }
 
 .sidebar-nav li a .icon {
@@ -242,13 +242,13 @@ img::-moz-selection{background:transparent;}
 }
 
 .sidebar-nav li a:active {
-    background-color: #186AB3;
+    background-color: #CCD2D6;
     color: #FFF;
 }
 
 .sidebar-nav li a.active {
     background-color: rgba(0, 0, 0, 0.3);
-    border-left: 4px solid #186AB3;
+    border-left: 4px solid #CCD2D6;
     color: #FFF;
 }
 
