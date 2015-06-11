@@ -369,11 +369,11 @@ img::-moz-selection{background:transparent;}
 /* ABOUT */
 
 #about {
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), url('../img/fuji.jpg') no-repeat center center scroll;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), url('../rowing.PNG') no-repeat center center scroll;
     background: linear-gradient(
         rgba(255, 255, 255, 0.75), 
         rgba(255, 255, 255, 0.75)
-        ), url('../img/fuji.jpg') no-repeat center center scroll;
+        ), url('../rowing.PNG') no-repeat center center scroll;
     background-size: cover;
     color: #555;
 }
