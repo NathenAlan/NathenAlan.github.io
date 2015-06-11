@@ -242,13 +242,13 @@ img::-moz-selection{background:transparent;}
 }
 
 .sidebar-nav li a:active {
-    background-color: #62C370;
+    background-color: #3CA4FF;
     color: #FFF;
 }
 
 .sidebar-nav li a.active {
     background-color: rgba(0, 0, 0, 0.3);
-    border-left: 4px solid #62C370;
+    border-left: 4px solid #3CA4FF;
     color: #FFF;
 }
 
