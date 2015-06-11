@@ -312,7 +312,7 @@ img::-moz-selection{background:transparent;}
     z-index: 5;
 }
 
-#about, #Nanodegree, #DataSciSpec, #contact {
+#about, #resume, #projects, #contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -346,7 +346,7 @@ img::-moz-selection{background:transparent;}
 }
 
 @media(max-width:991px) {
-    #about, #Nanodegree, #DataSciSpec, #contact {
+    #about, #resume, #projects, #contact {
         position: relative;
         min-height: 0;
         height: auto;
@@ -444,32 +444,32 @@ img::-moz-selection{background:transparent;}
 }
 
 
-/* NANODEGREE */
+/* RESUME */
 
-#Nanodegree {
+#resume {
     background-color: #FFF;
     border-top: 1px solid #DDD;
     box-shadow: 0 0 2px rgba(0,0,0,0.05);
 }
 
-#Nanodegree .item {
+#resume .item {
     padding: 35px 30px;
     text-align: center;
 }
 
-#Nanodegree .item h4 {
+#resume .item h4 {
     font-weight: 300;
     font-size: 1.4em;
     text-transform: uppercase;
     color: #444;
 }
 
-#Nanodegree .item p {
+#resume .item p {
     margin-top: 10px;
     color: #666;
 }
 
-#Nanodegree .item i {
+#resume .item i {
     margin-bottom: 25px;
     color: #62C370;
 }
@@ -480,214 +480,35 @@ img::-moz-selection{background:transparent;}
     text-align: left;
 }
 
-/* DATA SCIENCE SPEC */
+/* PROJECTS */
 
-#DataSciSpec {
+#projects {
     background-color: #FFF;
     border-top: 1px solid #DDD;
     box-shadow: 0 0 2px rgba(0,0,0,0.05);
 }
 
-#DataSciSpec .item {
+#projects .item {
     padding: 35px 30px;
     text-align: center;
 }
 
-#DataSciSpec .item h4 {
+#projects .item h4 {
     font-weight: 300;
     font-size: 1.4em;
     text-transform: uppercase;
     color: #444;
 }
 
-#DataSciSpec .item p {
+#projects .item p {
     margin-top: 10px;
     color: #666;
 }
 
-#DataSciSpec .item i {
+#projects .item i {
     margin-bottom: 25px;
     color: #62C370;
 }
-
-/* PORTFOLIO */
-
-#portfolio {
-    background-color: #F6F6F6;
-    border-bottom: 1px solid #DDD;
-    border-top: 1px solid #DDD;
-    box-shadow: 0 0 2px rgba(0,0,0,0.05);
-}
-
-#portfolio .section-container {
-    width: 90%;
-}
-
-#portfolio figure {
-    margin: 15px 15px 35px 15px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.25);
-}
-
-#portfolio figcaption {
-    padding: 30px 30px 0 30px;
-    background-color: #FFF;
-    line-height: 1.75em;
-    text-align: left;
-}
-
-#portfolio figcaption .caption-footer {
-    margin: 0 -30px 0 -30px;
-    padding: 15px 30px;
-    background-color: #333;
-    line-height: 1.85em;
-    font-size: 0.8em;
-    word-spacing: 0.25em;
-    text-transform: uppercase;
-    color: #F6F6F6;
-}
-
-#portfolio figcaption .caption-footer i {margin-right: 6px;}
-
-#portfolio figcaption h4, h6 {
-    letter-spacing: -0.05em;
-    text-transform: uppercase;
-}
-
-#portfolio figcaption h4 {color: #333;}
-
-#portfolio figcaption h6 {
-    padding: 8px 0 25px 0;
-    color: #888;
-}
-
-#portfolio figcaption p {padding-bottom: 25px;}
-
-#portfolio figcaption i {
-    color: #56A370;
-    margin-right: 3px;
-}
-
-@media(max-width:991px) {
-    #portfolio figure {
-        margin: 5px 0px 50px 0px;
-    }
-    #portfolio .section-container {
-        width: 95%;
-    }
-    #portfolio figcaption {
-        padding: 20px 30px;
-    }
-    #portfolio figcaption h6 {
-        padding: 8px 0 15px 0;
-    }
-    #portfolio figcaption p {padding-bottom: 0px;}
-}
-
-@media(max-width:767px) {
-    #portfolio figcaption {
-        padding: 20px 30px;
-    }
-    #portfolio figcaption h6 {
-        padding: 8px 0 0 0;
-    }
-}
-
-#portfolio .effects .img {
-    position: relative;
-    float: left;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-#portfolio .effects .img img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-}
-
-#portfolio .overlay {
-    position: absolute;
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.75);
-    overflow: hidden;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-#portfolio .overlay a:hover {
-    background: #62C370;
-    text-decoration: none;
-}
-
-#portfolio a.close-overlay {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    width: 45px;
-    height: 45px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-    line-height: 45px;
-    text-align: center;
-    background-color: #000;
-    cursor: pointer;
-}
-
-#portfolio a.close-overlay.hidden {display: none;}
-
-#portfolio a.expand {
-    display: block;
-    position: absolute;
-    z-index: 10;
-    width: 60px;
-    height: 60px;
-    border: solid 5px #FFF;
-    text-align: center;
-    color: #FFF;
-    line-height: 50px;
-    font-weight: 700;
-    font-size: 30px;
-    -o-border-radius: 30px;
-    border-radius: 30px;
-}
-
-#portfolio .overlay {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
-
-#portfolio .overlay a.expand {
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: 0 auto;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-#portfolio .img.hover .overlay {
-    opacity: 1;
-    filter: alpha(opacity=100);
-}
-
-#portfolio .img.hover .overlay a.expand {
-    top: 50%;
-    margin-top: -30px;
-    opacity: 1;
-    filter: alpha(opacity=100);
-}
-
-#portfolio .img.hover .overlay a.expand i {font-size: 0.9em;}
 
 
 /* CONTACT */
