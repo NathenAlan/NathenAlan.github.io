@@ -257,7 +257,7 @@ img::-moz-selection{background:transparent;}
     #sidebar {
         top: 0;
         position: fixed;
-        width: 75%;
+        width: 100%;
         background: #111;
         border-bottom: none;
         text-align: center;
